@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formatting Date and Time</h1>
+      <div class="example">
+        <h4>Format String Examples</h4>
+
+        <ul>
+          <li>F j, Y g:i a – November 6, 2010 12:50 am</li>
+          <li>F j, Y – November 6, 2010</li>
+          <li>F, Y – November, 2010</li>
+          <li>g:i a – 12:50 am</li>
+          <li>g:i:s a – 12:50:48 am</li>
+          <li>l, F jS, Y – Saturday, November 6th, 2010</li>
+          <li>M j, Y @ G:i – Nov 6, 2010 @ 0:50</li>
+          <li>Y/m/d \a\t g:i A – 2010/11/06 at 12:50 AM</li>
+          <li>Y/m/d \a\t g:ia – 2010/11/06 at 12:50am</li>
+          <li>Y/m/d g:i:s A – 2010/11/06 12:50:48 AM</li>
+          <li>Y/m/d – 2010/11/06</li>
+        </ul>
+      </div>
+
+      <div class="form-div">
+        <form>
+          <label>Enter Date, Month, Year And Time!!!</label>
+          <input type="text" id="first-input" />
+          <label>Enter Format</label>
+          <input type="text" id="second-input" />
+        </form>
+
+        <button type="submit" id="form-submit" class="btn">Submit</button>
+      </div>
+
+      <div id="output"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
